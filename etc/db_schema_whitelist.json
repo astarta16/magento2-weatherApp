@@ -1,0 +1,19 @@
+{
+    "Nini_weatherreport_report": {
+        "column": {
+            "report_id": true,
+            "report_data": true,
+            "report_city": true,
+            "report_country": true,
+            "report_date": true
+        },
+        "index": {
+            "NINI_WEATHERREPORT_REPORT_REPORT_CITY": true,
+            "NINI_WEATHERREPORT_REPORT_REPORT_COUNTRY": true,
+            "NINI_WEATHERREPORT_REPORT_REPORT_DATE": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
